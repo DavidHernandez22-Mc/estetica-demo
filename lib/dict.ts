@@ -33,11 +33,11 @@ const es = {
       "Te decimos qué puede hacer cada procedimiento, qué no puede hacer y cuánto cuesta, antes de que decidas nada.",
     plan: "Arma tu plan",
     virtual: "Valoración virtual",
-    cap1: "Luz de ventana en una sala de recuperación",
+    cap1: "Retrato ilustrativo de banco libre. No es paciente.",
     cap2: "El valle de Aburrá visto desde El Poblado",
-    alt1: "Taza verde sobre una mesa de noche junto a sábanas blancas iluminadas por la ventana",
+    alt1: "Retrato de una mujer de rostro sereno con gotas de sérum en la mejilla, sobre un fondo color arena",
     alt2: "Vista del valle de Medellín con edificios de El Poblado y montañas al fondo",
-    alt3: "Gota de agua suspendida en la punta de una hoja verde",
+    alt3: "Primer plano de la textura natural de la piel",
     note: "Atención en español e inglés · Solo mayores de 18 años",
   },
   procedures: {
@@ -52,8 +52,7 @@ const es = {
     trm: "TRM de referencia",
     note:
       "Todo procedimiento tiene riesgos, incluso los no quirúrgicos, y requiere valoración médica previa. Los precios son orientativos y pueden cambiar.",
-    alt1: "Escalera blanca vista a través de una abertura en un muro blanco",
-    alt2: "Flor de cala blanca sobre un fondo oscuro",
+    alt1: "Sala de tratamiento luminosa con camilla, espejo iluminado y ventanal hacia un patio con palmeras",
   },
   plan: {
     title: "Arma tu plan",
@@ -106,11 +105,11 @@ const es = {
       },
     ],
     alts: [
-      "Escalera blanca en espiral bajo una cúpula de vidrio",
-      "Mesa y sillas blancas junto a ventanales luminosos",
-      "Edificio blanco escalonado contra un cielo azul pálido",
-      "Gotas de agua sobre una superficie lisa",
-      "Botones de flor verde sobre fondo oscuro",
+      "Cirujano con mascarilla, gafas de aumento y luz frontal durante un procedimiento",
+      "Quirófano iluminado con mesa de cirugía y equipos de monitoreo",
+      "Máquina de anestesia junto a una pared verde",
+      "Consultorio luminoso con escritorio, sillón amarillo y camilla al fondo",
+      "Vitrinas y gabinetes blancos con insumos médicos en una sala de tratamiento",
     ],
   },
   travel: {
@@ -145,11 +144,12 @@ const es = {
     msgMonth: "Llegada tentativa",
     days: "días",
     pending: "Por definir",
-    bandCap: "Guayacán amarillo, el árbol que tiñe de oro a Medellín en temporada seca. Foto ilustrativa de la especie.",
+    bandCap: "Aeropuerto Internacional José María Córdova, donde empieza el viaje a Medellín.",
+    bandAlt: "Terminal y torre de control del aeropuerto José María Córdova bajo un cielo despejado",
   },
   team: {
     title: "Quién te atiende",
-    note: "Personajes ficticios para la demo. Las imágenes son ilustrativas: no muestran a médicos reales.",
+    note: "Personajes ficticios para la demo. Cada imagen muestra un instrumento de la especialidad, no a un médico real.",
     people: [
       {
         name: "Dr. Andrés Restrepo",
@@ -173,18 +173,19 @@ const es = {
       },
     ],
     alts: [
-      "Escalera blanca vista a través de una abertura en un muro",
-      "Flor de cala blanca sobre fondo oscuro",
-      "Gota de agua en la punta de una hoja",
-      "Ventana de varios paneles que da a árboles verdes",
+      "Mano con guante estéril ajustando un foco quirúrgico",
+      "Jeringa con aguja fina en un consultorio",
+      "Dermatoscopio de mano sobre un fondo ocre",
+      "Máquina de anestesia con monitores en un quirófano",
     ],
   },
   stories: {
     title: "Lo que cuentan",
     label: "Ejemplo ilustrativo para la demo",
-    photoNote: "Foto ilustrativa de banco libre. No es la persona del testimonio ni paciente.",
-    alt: "Mujer leyendo un libro junto a una ventana con luz suave",
-    altSmall: "Mesa pequeña con un jarrón de ramas en un balcón",
+    photoNote: "Habitación de recuperación ilustrativa, de banco libre. No pertenece a la clínica.",
+    smallNote: "Foto de banco libre. No son pacientes.",
+    alt: "Habitación de recuperación con cama, sillón y ventana luminosa",
+    altSmall: "Profesional de salud tomando las manos de una paciente mayor",
     items: [
       {
         quote:
@@ -289,7 +290,7 @@ const es = {
     virtual: "Hacer la valoración virtual",
     wa: "Escribir por WhatsApp",
     city: "El Poblado, Medellín · Respuesta en horario laboral, hora de Colombia",
-    alt: "Ventana de varios paneles en una sala oscura que da a árboles verdes",
+    alt: "Pasillo claro de una clínica con puertas de consultorio",
   },
   footer: {
     place: ["Lumen Clínica Estética", "El Poblado, Medellín", "Antioquia, Colombia"],
@@ -304,7 +305,7 @@ const es = {
     ],
     creditsTitle: "Créditos de imagen",
     creditsNote:
-      "Fotografías ilustrativas de bancos libres (Unsplash y Wikimedia Commons). Ninguna persona que aparece es paciente ni médico de la clínica.",
+      "Fotografías ilustrativas de bancos libres, recortadas y redimensionadas para esta web. Los espacios no pertenecen a la clínica, que es ficticia, y ninguna persona que aparece es paciente ni médico de ella.",
     legal:
       "Lumen Clínica Estética es una clínica ficticia. Sitio de demostración diseñado por David. Sin registros, habilitaciones ni certificaciones reales.",
     top: "Volver arriba",
@@ -360,11 +361,11 @@ const en: Dict = {
       "We tell you what each procedure can do, what it can’t, and what it costs — before you decide anything.",
     plan: "Build your plan",
     virtual: "Virtual consultation",
-    cap1: "Window light in a recovery room",
+    cap1: "Illustrative stock portrait. Not a patient.",
     cap2: "The Aburrá Valley seen from El Poblado",
-    alt1: "Green mug on a bedside table beside white sheets in window light",
+    alt1: "Portrait of a calm woman with drops of serum on her cheek, against a sand-coloured background",
     alt2: "View over the Medellín valley with El Poblado buildings and mountains behind",
-    alt3: "A drop of water hanging from the tip of a green leaf",
+    alt3: "Close-up of the natural texture of skin",
     note: "Care in English and Spanish · Adults 18+ only",
   },
   procedures: {
@@ -379,8 +380,7 @@ const en: Dict = {
     trm: "Reference exchange rate",
     note:
       "Every procedure carries risk, non-surgical ones included, and needs a medical consultation first. Prices are a guide and may change.",
-    alt1: "White staircase seen through an opening in a white wall",
-    alt2: "White calla lily against a dark background",
+    alt1: "Bright treatment room with a treatment chair, lit mirror and a glass wall facing a patio with palm trees",
   },
   plan: {
     title: "Build your plan",
@@ -433,11 +433,11 @@ const en: Dict = {
       },
     ],
     alts: [
-      "White spiral staircase beneath a glass dome",
-      "White table and chairs beside bright windows",
-      "Stepped white building against a pale blue sky",
-      "Water droplets on a smooth surface",
-      "Green flower buds against a dark background",
+      "Surgeon wearing a mask, magnifying loupes and a headlight during a procedure",
+      "Brightly lit operating room with a surgical table and monitoring equipment",
+      "Anaesthesia machine beside a green wall",
+      "Bright consulting room with a desk, yellow armchair and treatment bed behind",
+      "White cabinets holding medical supplies in a treatment room",
     ],
   },
   travel: {
@@ -471,11 +471,12 @@ const en: Dict = {
     msgMonth: "Tentative arrival",
     days: "days",
     pending: "To be decided",
-    bandCap: "The yellow guayacán, the tree that turns Medellín gold in the dry season. Illustrative photo of the species.",
+    bandCap: "José María Córdova International Airport, where the trip to Medellín begins.",
+    bandAlt: "Terminal and control tower at José María Córdova airport under a clear sky",
   },
   team: {
     title: "Your care team",
-    note: "Fictional characters for this demo. Images are illustrative and do not show real doctors.",
+    note: "Fictional characters for this demo. Each image shows a tool of the specialty, not a real doctor.",
     people: [
       {
         name: "Dr. Andrés Restrepo",
@@ -499,18 +500,19 @@ const en: Dict = {
       },
     ],
     alts: [
-      "White staircase seen through an opening in a wall",
-      "White calla lily against a dark background",
-      "A water drop on the tip of a leaf",
-      "Multi-pane window looking out onto green trees",
+      "Sterile-gloved hand adjusting a surgical light",
+      "Syringe with a fine needle in a consulting room",
+      "Handheld dermatoscope on an ochre background",
+      "Anaesthesia machine with monitors in an operating room",
     ],
   },
   stories: {
     title: "In their words",
     label: "Illustrative example for this demo",
-    photoNote: "Illustrative stock photo. Not the person quoted, and not a patient.",
-    alt: "Woman reading a book by a window in soft light",
-    altSmall: "Small table with a vase of branches on a balcony",
+    photoNote: "Illustrative recovery room from a free image library. Not part of the clinic.",
+    smallNote: "Stock photo. Not patients.",
+    alt: "Recovery room with a bed, armchair and bright window",
+    altSmall: "Health professional holding an older patient’s hands",
     items: [
       {
         quote:
@@ -614,7 +616,7 @@ const en: Dict = {
     virtual: "Start the virtual consultation",
     wa: "Message us on WhatsApp",
     city: "El Poblado, Medellín · Replies during business hours, Colombia time",
-    alt: "Multi-pane window in a dark room looking out onto green trees",
+    alt: "Bright clinic corridor with consulting-room doors",
   },
   footer: {
     place: ["Lumen Aesthetic Clinic", "El Poblado, Medellín", "Antioquia, Colombia"],
@@ -629,7 +631,7 @@ const en: Dict = {
     ],
     creditsTitle: "Image credits",
     creditsNote:
-      "Illustrative photographs from free libraries (Unsplash and Wikimedia Commons). Nobody pictured is a patient or doctor at the clinic.",
+      "Illustrative photographs from free libraries, cropped and resized for this site. The spaces don’t belong to the clinic, which is fictional, and nobody pictured is its patient or doctor.",
     legal:
       "Lumen Aesthetic Clinic is fictional. Demo website designed by David. It holds no real licences, registrations or certifications.",
     top: "Back to top",

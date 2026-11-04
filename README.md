@@ -23,4 +23,4 @@ npm run dev
 
 ## Avisos
 
-Clínica, médicos y testimonios son ficticios. No se afirman registros, habilitaciones ni certificaciones. Las fotografías son de Unsplash y Wikimedia Commons, con créditos en el pie de página; ninguna persona fotografiada es paciente ni médico. TRM de referencia: 1 USD = 3.160 COP.
+Clínica, médicos y testimonios son ficticios. No se afirman registros, habilitaciones ni certificaciones. Las fotografías son de Wikimedia Commons, StockSnap y Flickr (licencias libres), con créditos y licencia en el pie de página; ninguna persona fotografiada es paciente ni médico, y los espacios no pertenecen a la clínica. TRM de referencia: 1 USD = 3.160 COP.

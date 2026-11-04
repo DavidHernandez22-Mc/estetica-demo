@@ -30,13 +30,13 @@ export function Hero({ t }: { t: Dict }) {
 
       <div className="hero-rail">
         <figure className="print print-square">
-          <Image src={photos.drop} alt={t.hero.alt3} sizes="(max-width: 760px) 40vw, 16vw" loading="eager" />
+          <Image src={photos.heroSkin} alt={t.hero.alt3} sizes="(max-width: 760px) 40vw, 16vw" loading="eager" />
         </figure>
 
         <figure className="print print-tall">
           <div className="shutter">
             <Image
-              src={photos.bedside}
+              src={photos.heroPortrait}
               alt={t.hero.alt1}
               sizes="(max-width: 760px) 72vw, 34vw"
               fetchPriority="high"

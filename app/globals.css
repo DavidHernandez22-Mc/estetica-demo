@@ -455,7 +455,7 @@ main:focus {
 }
 .print-tall img {
   aspect-ratio: 3 / 4;
-  object-position: 82% 70%;
+  object-position: 25% 50%;
 }
 .print-wide {
   grid-column: 9 / 13;
@@ -816,7 +816,7 @@ main:focus {
   width: 100%;
   aspect-ratio: 21 / 7;
   object-fit: cover;
-  object-position: 92% 8%;
+  object-position: 50% 12%;
 }
 .travel-band figcaption {
   padding: 10px var(--m) 0;
@@ -1108,7 +1108,7 @@ input[aria-invalid="true"] {
 .story-portrait img {
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 70% 50%;
+  object-position: 58% 50%;
   width: 100%;
   max-height: 78svh;
 }
@@ -1808,7 +1808,7 @@ html.js [data-reveal].in {
     gap: 20px;
   }
   .proc-photo {
-    display: none;
+    width: 72%;
   }
   .proc-tables {
     margin-top: 48px;
@@ -1980,8 +1980,8 @@ html.js [data-reveal].in {
     margin-bottom: 12px;
   }
   .band-frame img {
-    aspect-ratio: 4 / 3;
-    object-position: 80% 20%;
+    aspect-ratio: 16 / 9;
+    object-position: 50% 12%;
   }
 }
 .plan-hint {
@@ -1993,4 +1993,15 @@ html.js [data-reveal].in {
   display: inline-block;
   padding: 4px 0;
   min-height: 28px;
+}
+.proc-photo img {
+  object-position: 62% 50%;
+}
+.story-small-photo img {
+  object-position: 68% 60%;
+}
+@media (max-width: 760px) {
+  .print-tall figcaption {
+    max-width: calc(58% - 4px);
+  }
 }

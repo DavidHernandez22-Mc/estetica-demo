@@ -62,7 +62,7 @@ export function TravelPlanner({ lang }: { lang: Lang }) {
     <section id="viaje" className="section travel" aria-labelledby="travel-title">
       <figure className="travel-band">
         <div className="band-frame">
-          <Image src={photos.guayacan} alt="" sizes="100vw" className="drift" />
+          <Image src={photos.bandAirport} alt={t.travel.bandAlt} sizes="100vw" className="drift" />
         </div>
         <figcaption>{t.travel.bandCap}</figcaption>
       </figure>

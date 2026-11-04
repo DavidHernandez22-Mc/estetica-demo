@@ -58,7 +58,7 @@ export function Procedures({ t, lang }: { t: Dict; lang: Lang }) {
             <strong>{TRM_LABEL}</strong>
           </p>
           <figure className="proc-photo" data-reveal>
-            <Image src={photos.stair} alt={t.procedures.alt1} sizes="(max-width: 760px) 60vw, 24vw" />
+            <Image src={photos.procRoom} alt={t.procedures.alt1} sizes="(max-width: 760px) 60vw, 24vw" />
           </figure>
         </aside>
         <div className="proc-tables">

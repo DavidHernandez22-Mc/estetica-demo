@@ -4,11 +4,11 @@ import { photos } from "@/lib/photos";
 import { Icon } from "./Icon";
 
 const rowPhotos = [
-  { src: photos.atrium, shape: "r-portrait" },
-  { src: photos.table, shape: "r-wide" },
-  { src: photos.white, shape: "r-square" },
-  { src: photos.droplets, shape: "r-wide r-small" },
-  { src: photos.buds, shape: "r-portrait r-small" },
+  { src: photos.safeLoupes, shape: "r-portrait" },
+  { src: photos.safeOr, shape: "r-wide" },
+  { src: photos.safeAnesthesia, shape: "r-square" },
+  { src: photos.safeConsult, shape: "r-wide r-small" },
+  { src: photos.safeSupplies, shape: "r-portrait r-small" },
 ];
 
 export function SafeClinic({ t }: { t: Dict }) {

@@ -11,7 +11,7 @@ export function Stories({ t }: { t: Dict }) {
       </h2>
       <div className="story-main">
         <figure className="story-portrait" data-reveal>
-          <Image src={photos.reading} alt={t.stories.alt} sizes="(max-width: 760px) 72vw, 32vw" />
+          <Image src={photos.storyRoom} alt={t.stories.alt} sizes="(max-width: 760px) 72vw, 32vw" />
           <figcaption>{t.stories.photoNote}</figcaption>
         </figure>
         <figure className="story-quote" data-reveal>
@@ -28,7 +28,8 @@ export function Stories({ t }: { t: Dict }) {
       </div>
       <div className="story-more">
         <figure className="story-small-photo" data-reveal>
-          <Image src={photos.balcony} alt={t.stories.altSmall} sizes="(max-width: 760px) 44vw, 16vw" />
+          <Image src={photos.storyCare} alt={t.stories.altSmall} sizes="(max-width: 760px) 44vw, 16vw" />
+          <figcaption>{t.stories.smallNote}</figcaption>
         </figure>
         {rest.map((s) => (
           <figure key={s.who} className="story-mini" data-reveal>

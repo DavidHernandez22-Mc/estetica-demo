@@ -2,7 +2,12 @@ import Image from "next/image";
 import type { Dict } from "@/lib/dict";
 import { photos } from "@/lib/photos";
 
-const teamPhotos = [photos.stair, photos.calla, photos.drop, photos.window];
+const teamPhotos = [
+  { src: photos.teamLight, position: "28% 50%" },
+  { src: photos.teamSyringe, position: "62% 50%" },
+  { src: photos.teamDermatoscope, position: "24% 60%" },
+  { src: photos.teamAnesthesia, position: "50% 60%" },
+];
 
 export function Team({ t }: { t: Dict }) {
   return (
@@ -17,7 +22,12 @@ export function Team({ t }: { t: Dict }) {
         {t.team.people.map((m, i) => (
           <li key={m.name} className="person" data-reveal>
             <figure>
-              <Image src={teamPhotos[i]} alt={t.team.alts[i]} sizes="(max-width: 760px) 72vw, 28vw" />
+              <Image
+                src={teamPhotos[i].src}
+                alt={t.team.alts[i]}
+                sizes="(max-width: 760px) 72vw, 28vw"
+                style={{ objectPosition: teamPhotos[i].position }}
+              />
             </figure>
             <h3 className="person-name">{m.name}</h3>
             <p className="person-role">{m.role}</p>

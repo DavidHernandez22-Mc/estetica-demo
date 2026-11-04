@@ -32,7 +32,7 @@ export function Contact({ t }: { t: Dict }) {
         {t.contact.sentence}
       </p>
       <figure className="contact-photo" data-reveal>
-        <Image src={photos.dusk} alt={t.contact.alt} sizes="(max-width: 760px) 96px, 170px" />
+        <Image src={photos.contactCorridor} alt={t.contact.alt} sizes="(max-width: 760px) 96px, 170px" />
       </figure>
       <div className="contact-links" data-reveal>
         <p className="contact-q">{t.contact.question}</p>
@@ -112,7 +112,10 @@ export function Footer({ t }: { t: Dict }) {
                 <a href={c.url} target="_blank" rel="noopener noreferrer" lang="en">
                   {c.author}
                 </a>
-                , {c.source}, {c.licence}
+                , {c.source},{" "}
+                <a href={c.licenceUrl} target="_blank" rel="noopener noreferrer" lang="en">
+                  {c.licence}
+                </a>
               </li>
             ))}
           </ul>
