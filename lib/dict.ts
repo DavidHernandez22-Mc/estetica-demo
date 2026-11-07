@@ -13,6 +13,11 @@ const es = {
     ask: "¿Quieres una así para tu clínica?",
     cta: "Escríbeme",
   },
+  privacy: {
+    before: "Este sitio es una demostración. Si me escribes, tus datos los recibe David Hernández para responderte, según su ",
+    link: "política de privacidad",
+    after: ".",
+  },
   nav: {
     label: "Principal",
     procedures: "Procedimientos",
@@ -340,6 +345,11 @@ const en: Dict = {
     text: "Demo site designed by David",
     ask: "Want one like this for your clinic?",
     cta: "Message me",
+  },
+  privacy: {
+    before: "This site is a demo. If you write to me, your details are received by David Hernández to reply to you, under the ",
+    link: "privacy policy",
+    after: ".",
   },
   nav: {
     label: "Main",

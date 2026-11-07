@@ -2,6 +2,7 @@ export type Lang = "es" | "en";
 
 export const SITE_URL = "https://lumen-estetica-demo.vercel.app";
 export const WA_NUMBER = "573008564773";
+export const PRIVACY_URL = "https://david-web.castrod2207.workers.dev/privacidad/";
 
 /** Reference exchange rate (TRM) used for every USD figure on the site. */
 export const TRM = 3160;

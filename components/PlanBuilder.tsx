@@ -5,6 +5,7 @@ import { dicts } from "@/lib/dict";
 import { goals as allGoals, procedures, zones as allZones, type Goal, type Zone } from "@/lib/procedures";
 import { copRange, toolMessage, usdRange, waLink, type Lang } from "@/lib/site";
 import { Icon, WhatsAppGlyph } from "./Icon";
+import { PrivacyNote } from "./PrivacyNote";
 
 function toggle<T>(list: T[], v: T) {
   return list.includes(v) ? list.filter((x) => x !== v) : [...list, v];
@@ -155,6 +156,7 @@ export function PlanBuilder({ lang }: { lang: Lang }) {
             {t.plan.send}
           </a>
         )}
+        {results.length > 0 && <PrivacyNote t={t} />}
       </div>
     </section>
   );

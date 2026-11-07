@@ -5,6 +5,7 @@ import { dicts } from "@/lib/dict";
 import { procedures } from "@/lib/procedures";
 import { toolMessage, waLink, type Lang } from "@/lib/site";
 import { Icon, WhatsAppGlyph } from "./Icon";
+import { PrivacyNote } from "./PrivacyNote";
 
 const TOTAL = 5;
 type DateMode = "dates" | "none" | "local";
@@ -260,6 +261,7 @@ export function Assessment({ lang }: { lang: Lang }) {
             </button>
           )}
         </div>
+        <PrivacyNote t={t} />
       </form>
     </section>
   );

@@ -7,6 +7,7 @@ import { photos } from "@/lib/photos";
 import { getProcedure, procedures } from "@/lib/procedures";
 import { toolMessage, waLink, type Lang } from "@/lib/site";
 import { Icon, WhatsAppGlyph } from "./Icon";
+import { PrivacyNote } from "./PrivacyNote";
 
 const includeIcons = ["car", "nurse", "speech", "video"];
 
@@ -159,6 +160,7 @@ export function TravelPlanner({ lang }: { lang: Lang }) {
             <WhatsAppGlyph size={20} />
             {t.travel.send}
           </a>
+          <PrivacyNote t={t} />
         </form>
       </div>
     </section>

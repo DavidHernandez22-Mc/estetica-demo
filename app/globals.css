@@ -2005,3 +2005,20 @@ html.js [data-reveal].in {
     max-width: calc(58% - 4px);
   }
 }
+
+/* Demo privacy notice next to every form that sends data */
+.privacy-note {
+  margin-top: 8px;
+  max-width: 52ch;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.privacy-note a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.field .privacy-note,
+.assess .privacy-note {
+  color: var(--gold-soft);
+}
