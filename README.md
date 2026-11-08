@@ -2,7 +2,7 @@
 
 Web de demostración de una clínica ficticia de medicina estética y cirugía plástica en El Poblado, Medellín. Diseñada por David como pieza de portafolio.
 
-**URL:** https://lumen-estetica-demo.vercel.app · versión en inglés en `/en/`
+**URL:** https://estetica-demo.castrod2207.workers.dev · versión en inglés en `/en/`
 
 ## Qué incluye
 
@@ -14,12 +14,16 @@ Web de demostración de una clínica ficticia de medicina estética y cirugía p
 
 ## Stack
 
-Next.js 16 (App Router, páginas estáticas, un layout raíz por idioma), CSS propio, `next/image`, Zodiak (Fontshare, autoalojada) y Hanken Grotesk (`next/font`).
+Next.js 16 (App Router, exportación 100 % estática, un layout raíz por idioma), CSS propio, `next/image`, Zodiak (Fontshare, autoalojada) y Hanken Grotesk (`next/font`).
 
 ```bash
 npm install
 npm run dev
 ```
+
+## Publicación
+
+Sitio estático: `npm run build` genera la carpeta `out/` (`output: "export"`), con `index.html`, `en/index.html` y `404.html`. Cloudflare Workers Builds la publica con `npx wrangler deploy` como assets estáticos, sin Worker ni servidor (ver `wrangler.jsonc`). Las fotos están ya redimensionadas en WebP en `assets/img`, porque una exportación estática no tiene optimizador de imágenes.
 
 ## Avisos
 

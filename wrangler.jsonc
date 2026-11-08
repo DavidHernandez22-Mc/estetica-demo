@@ -1,0 +1,10 @@
+{
+  // Static site only: no Worker script ("main"). `npm run build` writes the
+  // Next.js static export to ./out and Cloudflare serves it as assets.
+  "name": "estetica-demo",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}

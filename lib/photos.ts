@@ -1,20 +1,20 @@
-import heroPortrait from "@/assets/img/hero-portrait.jpg";
-import heroSkin from "@/assets/img/hero-skin.jpg";
-import valley from "@/assets/img/m-valley.jpg";
-import procRoom from "@/assets/img/proc-room.jpg";
-import safeLoupes from "@/assets/img/safe-loupes.jpg";
-import safeOr from "@/assets/img/safe-or.jpg";
-import safeAnesthesia from "@/assets/img/safe-anesthesia.jpg";
-import safeConsult from "@/assets/img/safe-consult.jpg";
-import safeSupplies from "@/assets/img/safe-supplies.jpg";
-import bandAirport from "@/assets/img/band-airport.jpg";
-import teamLight from "@/assets/img/team-light.jpg";
-import teamSyringe from "@/assets/img/team-syringe.jpg";
-import teamDermatoscope from "@/assets/img/team-dermatoscope.jpg";
-import teamAnesthesia from "@/assets/img/team-anesthesia.jpg";
-import storyRoom from "@/assets/img/story-room.jpg";
-import storyCare from "@/assets/img/story-care.jpg";
-import contactCorridor from "@/assets/img/contact-corridor.jpg";
+import heroPortrait from "@/assets/img/hero-portrait.webp";
+import heroSkin from "@/assets/img/hero-skin.webp";
+import valley from "@/assets/img/m-valley.webp";
+import procRoom from "@/assets/img/proc-room.webp";
+import safeLoupes from "@/assets/img/safe-loupes.webp";
+import safeOr from "@/assets/img/safe-or.webp";
+import safeAnesthesia from "@/assets/img/safe-anesthesia.webp";
+import safeConsult from "@/assets/img/safe-consult.webp";
+import safeSupplies from "@/assets/img/safe-supplies.webp";
+import bandAirport from "@/assets/img/band-airport.webp";
+import teamLight from "@/assets/img/team-light.webp";
+import teamSyringe from "@/assets/img/team-syringe.webp";
+import teamDermatoscope from "@/assets/img/team-dermatoscope.webp";
+import teamAnesthesia from "@/assets/img/team-anesthesia.webp";
+import storyRoom from "@/assets/img/story-room.webp";
+import storyCare from "@/assets/img/story-care.webp";
+import contactCorridor from "@/assets/img/contact-corridor.webp";
 
 export const photos = {
   heroPortrait,

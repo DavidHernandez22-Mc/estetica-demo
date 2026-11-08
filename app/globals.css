@@ -2022,3 +2022,33 @@ html.js [data-reveal].in {
 .assess .privacy-note {
   color: var(--gold-soft);
 }
+
+/* Global 404 (static export: served as out/404.html) */
+.nf {
+  min-height: 100svh;
+  padding: var(--m);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 760px;
+}
+.nf-code {
+  font-family: var(--font-d);
+  font-weight: 300;
+  font-size: clamp(5rem, 18vw, 11rem);
+  line-height: 0.9;
+  color: var(--ink-soft);
+}
+.nf .soft {
+  max-width: 52ch;
+}
+.nf-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+.nf-demo {
+  margin-top: 24px;
+}
