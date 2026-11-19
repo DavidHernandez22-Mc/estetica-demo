@@ -2,7 +2,11 @@ export type Lang = "es" | "en";
 
 export const SITE_URL = "https://lumen-estetica-demo.vercel.app";
 export const WA_NUMBER = "573008564773";
-export const PRIVACY_URL = "https://davidhcwebs.com/privacidad/";
+/** David's privacy policy, in the same language as the page. */
+export const PRIVACY_URL: Record<Lang, string> = {
+  es: "https://davidhcwebs.com/privacidad/",
+  en: "https://davidhcwebs.com/en/privacy/",
+};
 
 /** Reference exchange rate (TRM) used for every USD figure on the site. */
 export const TRM = 3160;

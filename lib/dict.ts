@@ -1,5 +1,5 @@
 import type { Goal, Zone } from "./procedures";
-import type { Lang } from "./site";
+import { PRIVACY_URL, type Lang } from "./site";
 
 const es = {
   meta: {
@@ -16,6 +16,7 @@ const es = {
   privacy: {
     before: "Este sitio es una demostración. Si me escribes, tus datos los recibe David Hernández para responderte, según su ",
     link: "política de privacidad",
+    url: PRIVACY_URL.es,
     after: ".",
   },
   nav: {
@@ -349,6 +350,7 @@ const en: Dict = {
   privacy: {
     before: "This site is a demo. If you write to me, your details are received by David Hernández to reply to you, under the ",
     link: "privacy policy",
+    url: PRIVACY_URL.en,
     after: ".",
   },
   nav: {
