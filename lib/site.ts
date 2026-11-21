@@ -1,6 +1,6 @@
 export type Lang = "es" | "en";
 
-export const SITE_URL = "https://lumen-estetica-demo.vercel.app";
+export const SITE_URL = "https://estetica.davidhcwebs.com";
 export const WA_NUMBER = "573008564773";
 /** David's privacy policy, in the same language as the page. */
 export const PRIVACY_URL: Record<Lang, string> = {

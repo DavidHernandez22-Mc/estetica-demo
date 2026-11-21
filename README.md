@@ -2,7 +2,7 @@
 
 Web de demostración de una clínica ficticia de medicina estética y cirugía plástica en El Poblado, Medellín. Diseñada por David como pieza de portafolio.
 
-**URL:** https://estetica-demo.castrod2207.workers.dev · versión en inglés en `/en/`
+**URL:** https://estetica.davidhcwebs.com · versión en inglés en `/en/` (Cloudflare Workers, Worker `estetica-demo`; `estetica-demo.castrod2207.workers.dev` redirige con 301)
 
 ## Qué incluye
 
