@@ -1,7 +1,7 @@
 export type Lang = "es" | "en";
 
 export const SITE_URL = "https://estetica.davidhcwebs.com";
-export const WA_NUMBER = "573008564773";
+export const WA_NUMBER = "573244281553";
 /** David's privacy policy, in the same language as the page. */
 export const PRIVACY_URL: Record<Lang, string> = {
   es: "https://davidhcwebs.com/privacidad/",
